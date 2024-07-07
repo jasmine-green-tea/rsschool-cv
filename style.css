@@ -10,10 +10,70 @@ html {
 
 body {
 	font-family: "Hind Madurai", sans-serif;
+	color: #7d4f50;
+	font-size: 20px;
+	background-color: #fdfdff;
 	min-height: 100vh;
-	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+}
+
+.header {
+	display: block;
+	position: fixed;
+	left: 0; right: 0;
+	top: 0;
+	padding-top: 1px;
+	padding-right: 25px;
+	height: 50px;
+	width: 100vw;
+	background-color: rgba(253, 253, 255, 0.7);;
+	z-index: 3;
+}
+
+main img {
+	margin: 20px;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	border: 2px solid #fdfdff;;
+	border-radius: 50%;
+	margin-top: 80px;
+}
+
+main p {
+	margin-bottom: 15px;
+	margin-left: 10px;
+}
+
+main blockquote {
+	font-family: "Lora", sans-serif;
+	color: #ec9192;
+	font-size: 25px;
+	border-left: 3px solid #efe2d4;
+	margin-bottom: 35px;
+}
+
+.main-container {
+	display: flex;
+}
+
+.section-list-right {
+	margin-left: 40px;
+	margin-bottom: 30px;
+}
+
+.section-list-left {
+	margin-left: 60px;
+	margin-bottom: 30px;
+}
+
+.pre {
+	font-size: 16px;
+	background-color: rgba(239,226,212,0.6);
+	margin-left: 40px;
+	margin-right: 140px;
+	padding: 20px;
 }
 
 .nav-list {
@@ -21,6 +81,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     list-style: none;
+	
 }
 
 .nav-link {
@@ -28,4 +89,91 @@ body {
 	text-decoration: none;
 	line-height: 50px;
 	transition: 0.3s;
+	color: #7d4f50;
+}
+
+.nav-link:hover {
+	color: #ec9192;
+}
+
+.links {
+	color: #7d4f50;
+}
+
+.links:hover {
+	color: #fdfdff;
+}
+
+.two-columns {
+	display: grid;
+	grid-template-columns: 2fr 5fr 1fr;
+	grid-template-rows: 1fr 2fr 3fr;
+	width: 45%;
+}
+
+.profile-column {
+	background: rgba(239,226,212,0.8);
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	z-index: 2;
+}
+
+.left-column {
+	background-color: #edc2c2;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 4;
+	z-index: 1;
+	
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 3fr 4fr;
+}
+
+.left-column-content {
+	grid-column-start: 1;
+	grid-row-start: 2;
+	grid-row-end: 3;
+}
+
+.right-column {
+	width: 65%;
+	padding: 40px;
+	padding-top: 110px;
+}
+
+.section-title-left {
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 5px;
+	font-size: 25px;
+	color: #fdfdff;
+	text-transform: uppercase;
+	margin-left: 25px;
+}
+
+.section-title-right {
+	font-family: "Raleway", sans-serif;
+	margin-bottom: 15px;
+	font-size: 25px;
+	color: #ec9192;
+	text-transform: uppercase;
+	border-bottom: 4px solid #efe2d4;
+	padding-bottom: 5px;
+}
+
+.section-name {
+	font-family: "Lora", sans-serif;
+	font-weight: normal;
+	font-size: 40px;
+	text-align: center;
+}
+
+.section-subtitle {
+	font-weight: normal;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 30px;
 }
