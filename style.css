@@ -177,3 +177,34 @@ main blockquote {
 	text-align: center;
 	margin-bottom: 30px;
 }
+
+.footer {
+	background-color: #976b6c;
+	padding: 20px;
+	z-index: 4;
+}
+
+.footer-container {
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    color: #fdfdff;
+	font-size: 15px;
+}
+
+.github {
+	color: #fdfdff;
+}
+
+.github:hover {
+	color: #edc2c2;
+}
+
+.rss {
+	width: 120px;
+    height: 45px;
+    background-image: url("./assets/rss.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
