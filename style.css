@@ -1,13 +1,17 @@
+* {
+  box-sizing: border-box;
+}
 body {
-	background-color: lightpink;
+	font-family: "Raleway", sans-serif;
 }
 
 h1 {
-	color: white;
+	color: #ec9192;
 	border-bottom: 1px solid white;
 }
 
 p {
-	font-family: verdana;
+	font-family: "Hind Madurai", sans-serif;
+	color: #7d4f50;
 	font-size: 20 px;
 }
