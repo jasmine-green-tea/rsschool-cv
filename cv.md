@@ -36,8 +36,8 @@ Created illustrations and presentations using Adobe Illustrator and Figma. Gaine
 ## Education
 
 * Herzen State Pedagogical University, Bachelor's degree in Information Systems and Technologies, major in Information Technology in Design, 2026
-* FreeCodeCamp, Responsive Web Design Certification - in progress
-* RS School, Full-Stack JavaScript - in progress
+* [FreeCodeCamp, Responsive Web Design Certification](https://www.freecodecamp.org/learn/responsive-web-design-v9/) - in progress
+* [RS School, Full-Stack JavaScript](https://rs.school/courses/javascript) - in progress
 
 ## Languages
 
