@@ -3,8 +3,90 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Protasova Darya | CV</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header></header>
+  <main>
+    <h1>Darya Protasova</h1>
+    <h2>Junior Frontend Developer</h2>
+    <p>Recent graduate from Herzen University with a Bachelor’s degree in <b>Information Systems and Technologies</b>, major in <b>Information Technology in Design</b>. Passionate about fullstack development and web design, with a strong interest in combining technology and art to create functional and visually appealing digital products.</p>
+
+    <section>
+      <h2>Contacts</h2>
+      <ul>
+        <li>Saint-Petersburg, Russia</li>
+        <li><a href="mailto:my_email@gmail.com">my_email@gmail.com</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">@my_telegram</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+    </section>
+
+    <section>
+      <h2>Code Sample</h2>
+      <p>You are given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</p>
+      <pre>
+        <code>
+          **
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target)
+{
+    for (let i=0; i&lt;nums.length-1; i++)
+    {
+        for (let j=i+1; j&lt;nums.length; j++)
+        {
+            if ((nums[i] + nums[j]) == target)
+            {
+                return [i, j];
+            }
+        }
+    }
+};
+        </code>
+      </pre>
+    </section>
+
+    <section>
+      <h2>Project &amp; Practice</h2>
+
+      <article>
+        <h3>Information System for Project Activity Management</h3>
+        <p><i>Bachelor’s thesis</i></p>
+        <p>Designed and developed an information system to organize project activities at the university. Created UI mockups in Figma, built the frontend with React, implemented a REST API with Express, and designed the database in PostgreSQL.</p>
+        <a href="https://github.com/jasmine-green-tea/project-hub">View on GitHub</a>
+      </article>
+
+      <article>
+        <h3>Fomenko Industrial Laser Studio</h3>
+        <p><i>Internship</i></p>
+        <p>Created illustrations and presentations using Adobe Illustrator and Figma. Gained experience working on real tasks, meeting deadlines and handling feedback.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <ul>
+        <li>Herzen University, Bachelor’s degree in Information Systems and Technologies, major in Information Technology in Design, 2026</li>
+        <li><a href="https://www.freecodecamp.org/learn/responsive-web-design-v9/">FreeCodeCamp, Responsive Web Design Certification - in progress</a></li>
+        <li><a href="https://rs.school/courses/javascript">RS School, Full-Stack JavaScript - in progress</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Languages</h2>
+      <ul>
+        <li>Russian - native</li>
+        <li>English - B1 (Intermediate). I can read technical documentation, watch tutorials and communicate in simple written messages.</li>
+      </ul>
+    </section>
+  </main>
+  <footer></footer>
 </body>
 </html>
