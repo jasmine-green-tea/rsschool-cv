@@ -1,11 +1,11 @@
 # Darya Protasova
-## Junior Frontend Developer
+### Junior Frontend Developer
 
 ## Contacts
 
-Saint-Petersburg, Russia
-[my_email@gmail.com](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
-[my_telegram](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* Saint-Petersburg, Russia
+* [my_email@gmail.com](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+* [@my_telegram](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ## Summary
 
@@ -19,7 +19,27 @@ Recent graduate from Herzen University with a Bachelor's degree in **Information
 * **Tools:** Git, GitHub, VS Code, npm, Vite, Postman
 
 ## Code Sample
-
+You are given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+```
+**
+ * @param {number[]} nums
+ * @param {number} target
+ * @return {number[]}
+ */
+var twoSum = function(nums, target)
+{
+    for (let i=0; i<nums.length-1; i++)
+    {
+        for (let j=i+1; j<nums.length; j++)
+        {
+            if ((nums[i] + nums[j]) == target)
+            {
+                return [i, j];
+            }
+        }
+    }
+};
+```
 ## Projects & Practice
 
 ### Information System for Project Activity Management
