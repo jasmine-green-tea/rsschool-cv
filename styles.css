@@ -292,6 +292,24 @@ h3 {
   line-height: 1.5;
 }
 
+footer {
+  padding-block: 40px;
+  background-color: #ddd;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #333;
+}
+
 @media (max-width: 720px) {
   .header-menu-list {
     column-gap: 30px;
