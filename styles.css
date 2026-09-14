@@ -251,8 +251,45 @@ h3 {
   color: #111;
 }
 
-@media (max-width: 1024px) {
+.education {
+  padding-block: 60px;
+}
 
+.education-courses {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 48px;
+}
+
+.education-date {
+  margin: 0 0 4px;
+  font-size: 0.85rem;
+  color: #888;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.infin {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.education-content h3, .languages h3 {
+  margin: 0 0 4px;
+  font-size: 1.1rem;
+}
+
+.note {
+  margin: 0;
+  color: #444;
+  font-size: 0.9rem;
+  line-height: 1.5;
 }
 
 @media (max-width: 720px) {
@@ -266,7 +303,7 @@ h3 {
     gap: 24px;
   }
 
-  .skills-element, .code-sample-element {
+  .skills-element, .code-sample-element, .p-and-p-gallery, .education-grid {
     grid-template-columns: 1fr;
   }
 }
