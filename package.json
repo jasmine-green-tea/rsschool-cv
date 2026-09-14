@@ -1,0 +1,29 @@
+{
+  "name": "rsschool-cv",
+  "version": "1.0.0",
+  "description": "https://jasmine-green-tea.github.io/rsschool-cv/cv\r https://jasmine-green-tea.github.io/rsschool-cv/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:html": "linthtml source/*.html --config .linthtmlrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasmine-green-tea/rsschool-cv.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/jasmine-green-tea/rsschool-cv/issues"
+  },
+  "homepage": "https://github.com/jasmine-green-tea/rsschool-cv#readme",
+  "devDependencies": {
+    "@linthtml/linthtml": "^0.10.2",
+    "linthtml-config-htmlacademy": "^1.0.24",
+    "linthtml-rules-htmlacademy": "^1.1.0",
+    "stylelint": "^17.15.0",
+    "stylelint-config-htmlacademy": "^5.0.0"
+  }
+}
