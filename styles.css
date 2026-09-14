@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "Inter";
+  src: url("./fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+:where(ul, ol):where([class]) {
+  padding-left: 0;
+}
+
+:where(ul[class]) {
+  list-style: none;
+}
+
+:root {
+  --font-family-base: "Inter", sans-serif;
+  --container-width: 1300px;
+  --container-padding-x: 15px;
+  --transition-duration: 0.2s;
+}
+
+body {
+  font-family: var(--font-family-base);
+}
+
+a {
+  color: #000000;
+  transition-duration: var(--transition-duration);
+}
+
+a:hover {
+  color: #924343;
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
+  margin-inline: auto;
+  padding-inline: var(--container-padding-x);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-inline: 32px;
+}
+
+.header-menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 50px;
+}
+
+.header-menu-link {
+  display: flex;
+  height: 44px;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 720px) {
+  .header-menu-list {
+    column-gap: 30px;
+  }
+}

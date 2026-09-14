@@ -4,23 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Protasova Darya | CV</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header></header>
+  <header class="header">
+    <nav class="header-menu">
+      <ul class="header-menu-list">
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Skills</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Code Sample</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Project &amp; Practice</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Education</a>
+        </li>
+        <li class="header-menu-item">
+          <a class="header-menu-link" href="/">Languages</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
   <main>
     <h1>Darya Protasova</h1>
-    <h2>Junior Frontend Developer</h2>
-    <p>Recent graduate from Herzen University with a Bachelor’s degree in <b>Information Systems and Technologies</b>, major in <b>Information Technology in Design</b>. Passionate about fullstack development and web design, with a strong interest in combining technology and art to create functional and visually appealing digital products.</p>
+    <p class="subtitle">Junior Frontend Developer</p>
+    <p>Recent graduate from Herzen University with a Bachelor’s degree in <strong>Information Systems and Technologies</strong>, major in <strong>Information Technology in Design</strong>. Passionate about fullstack development and web design, with a strong interest in combining technology and art to create functional and visually appealing digital products.</p>
 
-    <section>
+    <address>
       <h2>Contacts</h2>
       <ul>
         <li>Saint-Petersburg, Russia</li>
         <li><a href="mailto:my_email@gmail.com">my_email@gmail.com</a></li>
         <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">@my_telegram</a></li>
       </ul>
-    </section>
+    </address>
 
     <section>
       <h2>Skills</h2>
@@ -30,20 +50,10 @@
       <h2>Code Sample</h2>
       <p>You are given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.</p>
       <pre>
-        <code>
-          **
- * @param {number[]} nums
- * @param {number} target
- * @return {number[]}
- */
-var twoSum = function(nums, target)
-{
-    for (let i=0; i&lt;nums.length-1; i++)
-    {
-        for (let j=i+1; j&lt;nums.length; j++)
-        {
-            if ((nums[i] + nums[j]) == target)
-            {
+        <code>var twoSum = function(nums, target) {
+    for (let i=0; i&lt;nums.length-1; i++) {
+        for (let j=i+1; j&lt;nums.length; j++) {
+            if ((nums[i] + nums[j]) == target) {
                 return [i, j];
             }
         }
@@ -58,14 +68,14 @@ var twoSum = function(nums, target)
 
       <article>
         <h3>Information System for Project Activity Management</h3>
-        <p><i>Bachelor’s thesis</i></p>
+        <p><em>Bachelor’s thesis</em></p>
         <p>Designed and developed an information system to organize project activities at the university. Created UI mockups in Figma, built the frontend with React, implemented a REST API with Express, and designed the database in PostgreSQL.</p>
         <a href="https://github.com/jasmine-green-tea/project-hub">View on GitHub</a>
       </article>
 
       <article>
         <h3>Fomenko Industrial Laser Studio</h3>
-        <p><i>Internship</i></p>
+        <p><em>Internship</em></p>
         <p>Created illustrations and presentations using Adobe Illustrator and Figma. Gained experience working on real tasks, meeting deadlines and handling feedback.</p>
       </article>
     </section>
