@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header class="header">
+  <header class="header container">
     <nav class="header-menu">
       <ul class="header-menu-list">
         <li class="header-menu-item">
@@ -28,19 +28,30 @@
       </ul>
     </nav>
   </header>
-  <main>
-    <h1>Darya Protasova</h1>
-    <p class="subtitle">Junior Frontend Developer</p>
-    <p>Recent graduate from Herzen University with a Bachelor’s degree in <strong>Information Systems and Technologies</strong>, major in <strong>Information Technology in Design</strong>. Passionate about fullstack development and web design, with a strong interest in combining technology and art to create functional and visually appealing digital products.</p>
 
-    <address>
-      <h2>Contacts</h2>
-      <ul>
-        <li>Saint-Petersburg, Russia</li>
-        <li><a href="mailto:my_email@gmail.com">my_email@gmail.com</a></li>
-        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">@my_telegram</a></li>
-      </ul>
-    </address>
+  <main class="container">
+    <section class="introduction">
+      <div>
+        <img class="photo" src="./images/me.jpg" alt="Darya Protasova" width="100" height="100">
+        <h1>Hello! I'm Darya Protasova</h1>
+        <p class="subtitle">Junior Frontend Developer</p>
+      </div>
+      <div>
+        <p class="summary">Recent graduate from Herzen University with a Bachelor’s degree in <strong>Information Systems and Technologies</strong>, major in <strong>Information Technology in Design</strong>. Passionate about fullstack development and web design, with a strong interest in combining technology and art to create functional and visually appealing digital products.</p>
+        <address>
+          <ul>
+            <li><a href="mailto:my_email@gmail.com">
+              <img src="./icons/telegram.svg" alt="Telegram" width="24" height="24">
+            </a></li>
+            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+              <img src="./icons/gmail.svg" alt="Email" width="24" height="24">
+            </a></li>
+          </ul>
+          <p>Saint-Petersburg, Russia</p>
+        </address>
+      </div>
+    </section>
+
 
     <section>
       <h2>Skills</h2>
